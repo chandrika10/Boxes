@@ -1,0 +1,131 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  font-size: 30px;
+  font-family: "roboto";
+  margin-bottom: 30px;
+}
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.box-1 {
+  height: 80px;
+  width: 80px;
+  background-color: #fbbf24;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .box-1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-1 {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box-1 {
+    height: 140px;
+    width: 140px;
+  }
+}
+.box-2 {
+  height: 150px;
+  width: 150px;
+  background-color: #38bdfb;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .box-2 {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box-2 {
+    height: 250px;
+    width: 250px;
+  }
+}
+.box-3 {
+  height: 200px;
+  width: 200pc;
+  background-color: #ec4899;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .box-3 {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-3 {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box-3 {
+    height: 450px;
+    width: 450px;
+  }
+}
+.box-title {
+  font-family: "bree serif";
+  color: #ffffff;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .box-title {
+    font-size: 24px;
+  }
+}
